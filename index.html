@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Navbar Pada Website</title>
+<style>
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-item li a{
+	text-decoration: none;
+	margin-right: 10px;
+	text-align: right;   
+	color: black;	
+}
+.nav-item li{
+	list-style: none;
+}
+.flex{
+	display: flex;
+}
+.nav-item{
+	text-align: right;  
+	justify-content: end;
+	margin:0;
+	width: 100%;
+}
+.logo{
+	width: 70px;
+	height: 40px;
+}
+.navbar{
+	background-color: wheat;
+	height: 40px;
+	align-items: center;
+	padding: 5px;
+}
+.skil-box{
+	width: 300px;
+	background-color: brown;
+	padding: 8px;
+	color: white;
+	border-radius: 3px;
+}
+.maksimum-skill{
+	background-color: grey;
+	width: 90%;
+	margin-right: 5px;
+}
+.bar1{
+	width: 90%;
+	height: 100%;
+	background-color: white;
+	margin-right: 12px;
+}
+.bar2{
+	width: 45%;
+	height: 100%;
+	background-color: white;
+}
+.bar3{
+	width: 35%;
+	height: 100%;
+	background-color: white;
+	margin-right: 12px;
+}
+.bar4{
+	width: 85%;
+	height: 100%;
+	background-color: white;
+	margin-right: 12px;
+}
+.label1{
+	width: 10%;
+	margin-left: auto;
+}
+.label2{
+	width: 10%;
+	margin-left: auto;
+}
+.label3{
+	width: 10%;
+	margin-left: auto;
+}
+.label4{
+	width: 10%;
+	margin-left: auto;
+}
+
+.keterangan{
+	font-weight: bold;
+}
+.box-all
+{
+	background-color: wheat;
+	border-radius: 20px;
+	max-width: 800px;
+	margin: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 55px;
+}
+.judul-skill
+{
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+}
+.foto-profil
+{
+	width: 330px;
+	height: 330px;
+	border-radius: 5px;
+	margin-top: 40px;
+	border: 2px solid black;
+	align-items: center;
+}
+.sub-box
+{
+	margin-left: 25px;
+}
+.profil-ket
+{
+	margin-right: 25px;
+}
+.judul-profket
+{
+	font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+  <nav class="navbar flex">   
+  	<img class= "logo" src="assets/Img/sija.png" alt=" DIVISI SIJA ">
+		<ul class="nav-item flex">
+			<li><a href ="#">Beranda</a></li>
+			<li><a href ="#">Berita</a></li>
+			<li><a href ="#">Tentang Kami</a></li>
+			<li><a href ="#">Kontak Person</a></li>
+		</ul> 
+  </nav>
+	<div class="box-all">
+		<div class="flex">
+			<div class="foto-box">
+				<img class="foto-profil flex" src="assets/Img/raf.jpeg" alt="Ahmad Rafli Al Adzani">
+			</div>
+			<div class="sub-box">
+				<div class="judul-skill">
+					<p> Profil Developer</p>
+				</div>
+				<p class="keterangan">Riset Web Bussiness :</p>
+				<div class="skil-box flex">
+					<div class="maksimum-skill">
+						<div class="bar1"></div>
+					</div>
+					<div class="label1">
+							90%
+					</div>
+				</div>
+
+				<p class="keterangan">Skill HTML :</p>
+				<div class="skil-box flex">
+					<div class="maksimum-skill">
+						<div class="bar2"></div>
+					</div>
+					<div class="label2">
+						45%
+					</div>
+				</div>
+
+				<p class="keterangan">Skill CSS :</p>
+				<div class="skil-box flex">
+					<div class="maksimum-skill">
+						<div class="bar3"></div>
+					</div>
+					<div class="label3">
+						35%
+					</div>
+				</div>
+
+				<p class="keterangan">Social Media Officer :</p>
+				<div class="skil-box flex">
+					<div class="maksimum-skill">
+						<div class="bar4"></div>
+					</div>
+					<div class="label4">
+						85%
+					</div>
+				</div>
+			</div>  
+		</div>
+		<div class="profil-ket">
+			<p class="judul-profket">Profil Utama</p>
+			<p>Saya tertarik mempelajari bahasa pemrograman. Saat ini saya sedang mendalami bahasa pemrograman HTML, CSS secara mandiri. Saya juga senang mempelajari hal yang berkaitan dengan jaringan.</p>
+		</div>
+		<div class="project">
+			Contoh Pengalaman Project
+			<ul>
+				<li><a href="Belajar5.html">Project 1</a></li>
+				<li><a href="Belajar1.html">Project 2</a></li>
+			</ul>
+		
+		</div>
+	</div>
+</body>
+</html>
+
+
+ 
+

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar5</title>
+<style>
+*
+{
+	margin:0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav
+{   
+	display: flex;
+	background-color: brown;
+	padding-left: 15px;
+	align-items: center;
+	height: 60px;
+}
+nav ul 
+{  
+	display: flex;
+	text-decoration: none;
+	margin-left: auto;
+	list-style-type: none;
+}
+nav li
+{
+	padding-right: 20px;
+		
+}
+nav a
+{
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 15px;
+	justify-content: right;
+	text-decoration: none;
+}
+nav img
+{
+	height: 40px;
+	width: 60px;
+}
+
+.carding
+{
+	position: relative;
+	width: 200px;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 3px;
+	top: 50px;
+	margin: auto;
+}
+.carding > img
+{   
+	object-fit: cover;
+	width: 100%;
+	height: 97%;
+}
+.label
+{
+	position: absolute;
+	background: blanchedalmond;
+	color: red;
+	padding: 8px;
+	font-weight: bold;
+	border-radius: 3px;
+	margin: 5px;
+	right: 0;
+	top: 0;
+	border: 1px solid black;
+}
+.cover
+{
+	background: rgba(0, 0 ,0 , 0.200);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.details
+{
+	position: absolute;
+	background-color: brown;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 2px;
+	height: 20px;
+	border: 1px solid black;
+}
+.carding:hover > .cover
+{
+	background-color: rgba(0, 0, 0, 0.500);
+}
+.flex
+{
+	display: flex;
+}
+.judul-toko
+{
+	text-align: center;
+	margin-top: 35px;
+	font-weight: bold;
+	font-size: 25px;
+	color: brown;
+}
+.ket-toko
+{
+	margin-top: 100px;
+	margin-left: 10px;
+}
+  
+ </style>
+</head>
+<body>
+	<nav>
+		<img src="assets/Img/hijrah.png">
+		<ul>    
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a></li>   
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+<div class="judul-toko">
+	<p>Jual Produk Dan Perangkat Shalat</p>
+</div>
+<div class="flex">
+	<div class="carding">
+		<img src="assets/Img/Quran.jpg">
+		<div class="cover">
+			<div class="label">
+			Rp 120.000
+			</div>
+			<div class="details">
+			Al Quran Solution
+			</div>
+		</div>
+		<div class="cover">
+			<div class="label">
+			Rp 120.000
+			</div>
+			<div class="details">
+			Al Quran Solution
+			</div>
+		</div>
+	</div>
+	<div class="carding">
+		<img src="assets/Img/tasbih.jpg">
+		<div class="cover">
+			<div class="label">
+			Rp 5.000
+			</div>
+			<div class="details">
+			Al Quran Solution
+			</div>
+		</div>
+		<div class="cover">
+			<div class="label">
+			Rp 5.000
+			</div>
+			<div class="details">
+			Tasbih
+			</div>
+		</div>
+	</div>
+	<div class="carding">
+		<img src="assets/Img/sajadah.jpg">
+		<div class="cover">
+			<div class="label">
+			Rp 115.000
+			</div>
+			<div class="details">
+			Sajadah Salat
+			</div>
+		</div>
+		<div class="cover">
+			<div class="label">
+			Rp 115.000
+			</div>
+			<div class="details">
+			Sajadah Salat
+			</div>
+		</div>
+	</div>
+	<div class="carding">
+		<img src="assets/Img/kopyah.jpg">
+		<div class="cover">
+			<div class="label">
+			Rp 200.000
+			</div>
+			<div class="details">
+			Al Quran Solution
+			</div>
+		</div>
+		<div class="cover">
+			<div class="label">
+			Rp 200.000
+			</div>
+			<div class="details">
+			Songkok Indonesia
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ket-toko">
+	<p>
+	Toko menjual peralatan shalat, harga yang ditawarkan terjangkau. Silahkan kunjungi toko kami, insya allah toko kami buka setiap hari senin-jumat. Kami memiliki cabang di berbagai daerah di Indonesia.
+	</p>
+</div>
+</body>
+</html>
