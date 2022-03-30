@@ -43,7 +43,7 @@ body{
 	width: 300px;
 	background-color: brown;
 	padding: 8px;
-	color: white;
+	color: white;	
 	border-radius: 3px;
 }
 .maksimum-skill{
@@ -98,11 +98,13 @@ body{
 {
 	background-color: wheat;
 	border-radius: 20px;
-	max-width: 800px;
-	margin: 25px;
+	max-width: 700px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	padding-left: 55px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+
 }
 .judul-skill
 {
@@ -110,18 +112,19 @@ body{
 	text-align: center;
 	font-size: 25px;
 }
+.foto-box{
+	margin: 5rem 5rem 0rem 0rem;
+}
 .foto-profil
 {
-	width: 330px;
-	height: 330px;
+	width: 300px;
+	height: 300px;
 	border-radius: 5px;
 	margin-top: 40px;
+	margin: auto;
 	border: 2px solid black;
 	align-items: center;
-}
-.sub-box
-{
-	margin-left: 25px;
+	
 }
 .profil-ket
 {
@@ -131,6 +134,12 @@ body{
 {
 	font-weight: bold;
 }
+.wrapper
+{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 
 </style>
 </head>
@@ -145,9 +154,9 @@ body{
 		</ul> 
   </nav>
 	<div class="box-all">
-		<div class="flex">
-			<div class="foto-box">
-				<img class="foto-profil flex" src="assets/Img/raf.jpeg" alt="Ahmad Rafli Al Adzani">
+		<div class="flex wrapper">
+			<div class="foto-box" style="margin-right: 4rem;">
+				<img class="foto-profil" src="assets/Img/raf.jpeg" alt="Ahmad Rafli Al Adzani">
 			</div>
 			<div class="sub-box">
 				<div class="judul-skill">
