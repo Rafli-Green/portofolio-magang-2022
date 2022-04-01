@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paket Aqiqah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  background-color: gold;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  /* padding-right: 10px; */
+}
+.nav-item{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-right: 30px;
+  /*justify-content: space-between;*/
+  /* padding: 10px; */
+}
+.nav-link a{
+  margin-right: 10px;
+}
+.nav-link{
+  display: none;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+.mobile-menu select{
+  background-color: rgb(191, 163, 84);
+  border: 1px solid black;
+}
+.container{
+  margin-top: 80px;
+}
+.card{
+  /* max-width: 250px; */
+  margin: auto;
+  font-size: 18px;
+}
+.card-sultan{
+  /* max-width: 300px; */
+  margin: auto;
+  font-size: 18px;
+}
+.card-raja{
+  /* max-width: 300px; */
+  margin: auto;
+  font-size: 18px;
+}
+.ket-awal
+{
+  margin-left: 10px;
+  font-size: 18px;
+}
+.head-ket{
+  font-weight: bold;
+  text-align: center;
+  font-size: 27px;
+}
+.box-paket{
+  margin: auto;
+  justify-content: center;
+}
+.checklist{
+  width: 15px;
+  margin: 5px 5px 10px 5px;;
+}
+.list-eat{
+  text-align: left;
+  list-style-type: square;
+  /* margin-left: 20px; */
+  white-space: nowrap;
+}
+.img-fud{
+  display: block;
+}
+.img-fud img{
+  display: flex;
+  width: 100%;
+
+  margin: 50px 0;
+}
+.border-fud
+{
+  border: 2px solid grey;
+}
+.ket-fud
+{
+  display: flex;
+  /* margin-left:15px; */
+}
+.ket-akhir{
+  margin-bottom: 100px;
+  /* margin-left: 15px; */
+  font-size: 18px;
+}
+
+@media screen and (min-width: 767px){
+  .mobile-menu{
+    display: none;
+  }
+  .nav-link{
+    display: block;
+  }
+  .logo{
+    margin-left: 40px;
+  }
+  .img-fud{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img-fud img{
+    width: 300px;
+    height: 200px;
+  }
+}
+
+</style>
+</head>
+<body>
+<!-- <nav>
+  <div class="container-fluid">
+    <ul class="nav-item">
+      <img class="logo" src="/assets/Img/kopi.jpg" alt="Logo">
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Informasi</a></li>
+      <li><a href="#">Kontak Person</a></li>
+    </ul>
+  </div>
+</nav> -->
+<nav>
+  <img class="logo" src="/assets/Img/logo.png" alt="Logo">
+  <div class="nav-item">
+    <div class="mobile-menu">
+      <select>
+        <option>Menu</option>
+        <option>Beranda</option>
+        <option>Informasi</option>
+        <option>Kontak Person</option>
+      </select> 
+    </div>
+    <div class="nav-link">
+      <a href="#">Beranda</a>
+      <a href="#">Informasi</a>
+      <a href="#">Kontak Person</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="ket-awal">
+    <p class="head-ket mb-0 bold">Paket Aqiqah Termurah Di Surabaya</p>
+  <p class="text-center"> Graffqah memiliki beberapa cabang di Surabaya. Kami menyediakan aneka macam masakan Aqiqah yang berasal dari hewan ternak yang berkualitas. Segera pesan aqiqah anda dengan beberapa pilihan masakan terbaik. Paket yang kami tawarkan sebagai berikut.</p>
+</div>
+
+<div class="box-paket row text-center">
+  <div class="col-12 col-md-4 super">
+    <div class="card card mb-4 rounded-3 shadow-sm">
+      <div class="card-header py-3 text-white bg-success border-success">
+        <h4 class="my-0 fw-normal">Paket Super</h4>
+      </div>
+      <div class="card-body m-2">
+        <h5 class="card-title pricing-card-title">Rp 3.500.000<small class="text-muted fw-light">/50 Kotak</small></h5>
+        <ul class="list-eat list-unstyled mt-3 mb-4">
+          <li>Paket nasi kotak<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+          <li>Paket gulai kambing<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+          <li>Paket sayur rica<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+          <li>Paket salad buah<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-success">Pesan</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 ">
+    <div class="card card-sultan mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3 text-white bg-warning border-warning">
+          <h4 class="my-0 fw-normal">Paket Sultan</h4>
+        </div>
+        <div class="card-body m-2">
+          <h5 class="card-title pricing-card-title">Rp 5.500.000<small class="text-muted fw-light">/35 Kotak</small></h5>
+          <ul class="list-eat list-unstyled mt-3 mb-4">
+            <li>Paket nasi kebuli kotak<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li>Paket iga bakar<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li>Paket sayur rica asam manis<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li>Paket salad buah<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li><b class="me-2" >Bonus</b>Paket sate kambing<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-warning text-white">Pesan</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card card-sultan mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3 text-white bg-danger border-wabg-danger">
+          <h4 class="my-0 fw-normal">Paket Raja</h4>
+        </div>
+        <div class="card-body m-2">
+          <h5 class="card-title pricing-card-title">Rp 8.500.000<small class="text-muted fw-light">/30 Kotak</small></h5>
+          <ul class="list-eat list-unstyled my-3">
+            <li>Paket nasi kebuli kotak<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li>Paket iga lapis<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li>Paket sayur capcay tiram<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li>Paket salad buah<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li><b>Bonus</b> Paket sate kambing<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+            <li><b>Bonus</b> Paket sate kelapa<img class="checklist" src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png"/></li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-danger">Pesan</button>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="img-fud m-auto ">
+  <img class="border-fud" src="assets/Img/sate_gule.jpg" alt="SATE GULE">
+  <img class="border-fud" src="assets/Img/nasi_kebuli.jpg" alt="NASI KEBULI">
+  <img class="border-fud" src="/assets/Img/sate gulai 1.png" alt="SATE GULE">
+</div>
+
+<div class="ket-akhir">
+  <p> Saran dan kritik anda, merupakan citra khas masakan yang sesungguhnya.</p>
+</div>
+
+
+
+
+
+
+</div>
+</body>
+</html>
